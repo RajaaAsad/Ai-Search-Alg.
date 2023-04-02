@@ -14,6 +14,7 @@ def dls(g,goal,limit):
         
 
         if node==goal:
+            visited.append(goal)
             path.append(goal)
             while goal!=1:
                 path.insert(0,childPar[goal])
@@ -34,5 +35,5 @@ def dls(g,goal,limit):
 
 
 
-g={1:[2,3],2:[4,5],3:[6,7],4:[8,9],5:[10,11]}  
+g={1:[2,3],2:[4,5],3:[6,7]}  
 print(IDS(g,7,4))     
