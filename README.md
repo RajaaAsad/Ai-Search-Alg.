@@ -4,3 +4,7 @@
       - DFS code
       - Depth Limited Search DLS
       - Iterative Deepening Search IDS
+   
+   2. Breadth First Search
+      - BFS code
+      - Uniform Cost Search code UCS
